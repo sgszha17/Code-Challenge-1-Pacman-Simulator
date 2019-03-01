@@ -1,33 +1,67 @@
-.App {
+.gameSpace {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.Game{
+  height: 600px;
+  width: 500px;
+  background: black;
   color: white;
+  opacity: 0.7;
+  box-shadow: 0 3px 18px 8px rgba(38, 24, 24, 0.25);
 }
 
-.App-link {
-  color: #61dafb;
+.Command{
+  height: 600px;
+  width: 500px;
+  align-content: space-around;
+  padding: 5px;
+  background: black;
+  color: white;
+  opacity: 0.7;
+  box-shadow: 0 3px 18px 8px rgba(38, 24, 24, 0.25);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.title{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.textArea{
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.historyContainer{
+
+  height: 250px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.history{
+  height: 190px;
+  width: 390px;
+  margin: 0 auto;
+  background: gray;
+  padding: 10px;
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+Button{
+  height: 40px;
+  width: 100px;
+  border-radius: 25px;
+  font-size: 18px;
+  background: #2ECCFA;
+  border: none;
 }
