@@ -17,14 +17,13 @@ You will also see any lint errors in the console.
 ## Implement        
 
 Runing the simulation by enter a command:
-### `PLACE 0,0,NORTH`           
+`PLACE 0,0,NORTH`           
 
 or a group of commands:
-### ```
-    PLACE 0,0,NORTH
-    LEFT
-    REPORT
-    ```
+```
+PLACE 0,0,NORTH
+LEFT
+```
 
 ## Test                 
 ### `node ./test/appTest.js`    
@@ -38,3 +37,4 @@ Siyu Zhang: paula555@outlook.com
 ## Licences          
  
 ReactJS: https://github.com/facebook/react/blob/master/LICENSE
+selenium-webdriver: https://www.npmjs.com/package/selenium-webdriver
