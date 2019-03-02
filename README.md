@@ -1,5 +1,5 @@
 # Pacman Simulator           
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).                       
 It is an answer of IE digital code challenge.
 
 ## Available Scripts                     
