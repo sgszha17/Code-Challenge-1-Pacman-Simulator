@@ -37,5 +37,6 @@ Siyu Zhang: paula555@outlook.com
 
 ## Licences          
  
-ReactJS: https://github.com/facebook/react/blob/master/LICENSE
+ReactJS: https://github.com/facebook/react/blob/master/LICENSE              
+
 selenium-webdriver: https://www.npmjs.com/package/selenium-webdriver
