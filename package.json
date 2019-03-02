@@ -4,17 +4,17 @@
   "private": true,
   "dependencies": {
     "antd": "^3.13.6",
+    "chai": "^4.2.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "selenium-webdriver": "^4.0.0-alpha.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "NODE_ENV=development webpack-dev-server  --inline --progress --colors --port 3000 --host 0.0.0.0 ",
-    "test": "jest"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,9 +25,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
-    "babel-jest": "^24.1.0",
-    "enzyme": "^3.9.0",
-    "jest": "^24.1.0"
-  }
+  "devDependencies": {}
 }
