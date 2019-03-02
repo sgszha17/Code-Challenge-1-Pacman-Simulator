@@ -16,7 +16,8 @@ You will also see any lint errors in the console.
 
 ## Implement        
 
-Runing the simulation by enter a command:
+Runing the simulation by enter a command:           
+
 `PLACE 0,0,NORTH`           
 
 or a group of commands:
